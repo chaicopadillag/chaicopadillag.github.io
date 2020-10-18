@@ -8,7 +8,7 @@ Actualmente me dedico al desarrollo de aplicaciones web que ayuden a solucionar 
 
 ¿Interesado por mis conocimientos y habilidades? ¡Quizás podamos trabajar juntos!
 
-Visita mi [Pagina Web Personal](https://chaicopadillag.github.io/){:target="\_blank"}
+Visita mi [Pagina Web Personal](https://chaicopadillag.github.io/)
 
 ![Portafolio Personal](https://raw.githubusercontent.com/chaicopadillag/chaicopadillag.github.io/master/img/portada.jpg 'Portafolio Personal')
 
