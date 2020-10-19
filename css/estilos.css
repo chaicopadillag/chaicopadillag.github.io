@@ -21,7 +21,9 @@
 	--efectos-segundos: 0.5s;
 	--tamanio-link-menu: 1.2rem;
 }
-
+* {
+	outline: none;
+}
 html {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
