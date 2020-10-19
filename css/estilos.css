@@ -48,7 +48,11 @@ body.dark {
 	background-color: var(--color-principal);
 	color: var(--color-blanco);
 }
-
+.contenedor {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
 /* TODO: datos personales */
 .datos {
 	height: 75vh;
@@ -98,7 +102,7 @@ body.dark {
 }
 
 .btns-social {
-	margin: var(--margen);
+	margin-bottom: 0.5rem;
 }
 
 .contacto-info > p > a:hover {
@@ -123,7 +127,7 @@ body.dark {
 	text-align: center;
 	line-height: 2.8rem;
 	padding: 0 2rem 0 2rem;
-	height: 2.8rem;
+	height: 3.4rem;
 	border: var(--linea) solid var(--color-blanco);
 	margin: 0.5rem;
 	text-decoration: none;
@@ -355,7 +359,7 @@ body.dark {
 
 .cuadro {
 	border: var(--linea) solid var(--color-blanco);
-	margin: 4rem 2rem 2rem 1rem;
+	/* margin: 4rem 0rem 4rem 0rem; */
 	text-align: center;
 	padding: var(--padding);
 	transition: var(--efectos-segundos) ease all;
@@ -1212,9 +1216,12 @@ body.dark {
 	.topdatos {
 		margin-top: 8rem;
 	}
-}
-
-@media (min-width: 992px) {
+	.btns-social {
+		margin-bottom: 2rem;
+	}
+	.cuadro {
+		margin: 2rem;
+	}
 }
 
 @media (min-width: 1200px) {
