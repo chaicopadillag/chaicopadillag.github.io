@@ -103,10 +103,6 @@ body.dark {
 	font-weight: bold;
 }
 
-.btns-social {
-	margin-bottom: 0.5rem;
-}
-
 .contacto-info > p > a:hover {
 	color: var(--color-rojo);
 }
