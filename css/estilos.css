@@ -976,7 +976,6 @@ body.dark {
 
 .contacto-info {
 	background-color: var(--color-blanco);
-	padding: 0.2rem 2rem 0.2rem 2rem;
 	transition: var(--efectos-segundos) ease all;
 	border: var(--linea-iconos) solid var(--color-principal);
 }
