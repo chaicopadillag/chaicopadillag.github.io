@@ -132,6 +132,7 @@ body.dark {
 	color: var(--color-blanco);
 	font-weight: bold;
 	transition: var(--efectos-segundos) ease all;
+	width: 100%;
 }
 
 .btn-redes:hover {
@@ -1212,6 +1213,9 @@ body.dark {
 
 	.topdatos {
 		margin-top: 8rem;
+	}
+	.btn-leer-mas {
+		width: auto;
 	}
 	.btns-social {
 		margin-bottom: 2rem;
