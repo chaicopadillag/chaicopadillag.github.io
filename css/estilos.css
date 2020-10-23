@@ -57,7 +57,7 @@ body.dark {
 }
 /* TODO: datos personales */
 .datos {
-	height: 75vh;
+	height: 100vh;
 	background-image: url('../img/bg2.jpg');
 	background-size: cover;
 	background-attachment: fixed;
@@ -1210,7 +1210,9 @@ body.dark {
 
 @media (min-width: 768px) {
 	/* FIXME: datos */
-
+	.datos {
+		height: 70vh;
+	}
 	.topdatos {
 		margin-top: 8rem;
 	}
