@@ -9,8 +9,8 @@
 	--margen: 1.2rem;
 	--linea: 0.2rem;
 	--linea-iconos: 0.1rem;
-	--font-titulo: 'Roboto', sans-serif;
-	--font-texto: 'Noto Sans', sans-serif;
+	--font-titulo: 'Poppins', sans-serif;
+	--font-texto: 'Poppins', sans-serif;
 	--tamanio-titulo: 1.4rem;
 	--tamanio-sub-titulo: 1.2rem;
 	--tamanio-texto: 1rem;
@@ -19,7 +19,7 @@
 	--tamanio-especialidad: 1rem;
 	--tamanio-icono: 1.4rem;
 	--efectos-segundos: 0.5s;
-	--tamanio-link-menu: 1.2rem;
+	--tamanio-link-menu: 1rem;
 }
 * {
 	outline: none;
