@@ -1,12 +1,13 @@
 User-agent: *
+Disallow: /img/*
 Disallow: /*.jpg$
 Disallow: /*.png$
 Disallow: /*.jpeg$
 Disallow: /*.svg$
 Disallow: /*.gif$
-Disallow: /files/resumen-chaico.pdf
-Disallow: /js/*.js
-Disallow: /css/*.css
+Disallow: /files/*
+Disallow: /js/*
+Disallow: /css/*
 Disallow: /UI-Design/*
 
 Sitemap: https://chaicopadillag.github.io/sitemap.xml
