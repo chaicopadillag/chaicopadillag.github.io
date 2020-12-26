@@ -1,8 +1,7 @@
 User-agent: *
 Disallow: /img/*.png
 Disallow: /img/*.jpg
-Disallow: /files/*.pdf
+Disallow: /files/resumen-chaico.pdf
 Disallow: /js/*.js
 Disallow: /css/*.css
 Disallow: /UI-Design/*
-
