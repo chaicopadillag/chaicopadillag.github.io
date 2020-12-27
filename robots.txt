@@ -1,6 +1,12 @@
 User-agent: *
 
+Disallow: /img/*
 Disallow: /files/*
 Disallow: /UI-Design/*
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.jpeg$
+Disallow: /*.svg$
+Disallow: /*.gif$
 
 Sitemap: https://chaicopadillag.github.io/sitemap.xml
