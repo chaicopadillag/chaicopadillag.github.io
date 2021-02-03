@@ -444,7 +444,11 @@ body.dark {
 	font-size: var(--tamanio-texto);
 	transition: var(--efectos-segundos) ease all;
 }
-
+.colegio .fecha b,
+.experiencia-empresa .fecha b {
+margin-left: 5px;
+margin-right: 5px;
+}
 .colegio .fecha.dark,
 .experiencia-empresa .fecha.dark {
 	color: var(--color-blanco);
