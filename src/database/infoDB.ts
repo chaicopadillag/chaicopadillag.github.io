@@ -5,7 +5,7 @@ export const infoDB: InfoType[] = [
   {
     id: '75d7cda0-54c7-459d-beb6-859a32a991a4',
     name: 'Dirección',
-    description: 'SJL, Lima, Peŕu',
+    description: 'SJL, Lima, Perú',
     Icon: IconAddres,
   },
   {
@@ -22,7 +22,7 @@ export const infoDB: InfoType[] = [
   },
   {
     id: 'a4086e2c-4b20-4a6f-a611-69fe536f9c95',
-    name: 'Web Site',
+    name: 'Web',
     description: 'chaicopadillag.github.io',
     Icon: IconWebSite,
   },

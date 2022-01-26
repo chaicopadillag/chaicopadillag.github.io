@@ -12,7 +12,7 @@ export const ProfileView = () => {
         <img src={photoUrl} alt='Gerard Ch.' className='border-2 border-gray-100 dark:border-gray-700 rounded-xl w-20 h-20 absolute -top-10 shadow' />
         <span className='rounded-full px-2 py-1 bg-green-500 text-gray-100 text-xs font-semibold absolute top-4 right-7 uppercase'>{status}</span>
         <div className='text-lg font-semibold mb-1.5'>
-          {name} {lastName}
+          {lastName} {name}
         </div>
         <div className='text-sm text-gray-500 dark:text-gray-200 mb-7'>{level}</div>
         <div className='flex overflow-hidden'>

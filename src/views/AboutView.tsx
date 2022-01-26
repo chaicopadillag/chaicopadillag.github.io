@@ -9,7 +9,7 @@ type AboutProp = {
 export const AboutView: FC<AboutProp> = ({ activeTab, setActiveTab }) => {
   return (
     <div className='p-7 pb-0 card'>
-      <h2 className='card-title'>Acerca de Mí</h2>
+      <h2 className='card-title'>Sobre mí</h2>
       <p className='text-gray-600 dark:text-gray-300 mb-4'>
         Soy Programador y Desarrollador Web autodidacta, proactivo y eficaz de Lima, Perú. Me apasiona mucho trabajar con nuevas tecnologías, disfruto creando aplicaciones de alto
         rendimiento tanto en Backend como en Frontend. Contribuyo a proyectos de Open-source y comunidades de programación ayudando a otros usuarios. En el futuro me gustaría poder
