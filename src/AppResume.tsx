@@ -8,14 +8,14 @@ export enum TabsEnum {
   portfolio = 'portfolio',
 }
 
-function App() {
+const AppResume = () => {
   const [activeTab, setActiveTab] = useState<TabsEnum>(TabsEnum.resume);
 
   return (
     <div className='p-4 w-full mx-auto sm:max-w-2xl  md:max-w-3xl lg:max-w-5xl xl:max-w-7xl'>
-      <div className='grid gap-5 lg:grid-cols-3'>
+      <div className='grid gap-5 grid-cols-1 lg:grid-cols-3'>
         {/* TODO: Left */}
-        <div>
+        <div className=''>
           <ProfileView />
           <SkillsView />
           <InfoView />
@@ -30,6 +30,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
-export default App;
+export default AppResume;

@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import AppResume from './AppResume';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppResume />
   </React.StrictMode>,
   document.getElementById('root')
 );
