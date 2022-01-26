@@ -5,8 +5,10 @@ export const ProfileView = () => {
   const { name, lastName, bgUrl, level, photoUrl, status } = profileDB;
   return (
     <div className='card'>
-      <div className='h-32 bg-cover p-2' style={{ backgroundImage: `url(${bgUrl})` }}>
-        <DarkMode />
+      <div className='h-32 rounded-t-xl overflow-hidden bg-cover' style={{ backgroundImage: `url(${bgUrl})` }}>
+        <div className='bg-primary-600 dark:bg-gray-900 bg-opacity-60 dark:bg-opacity-70 h-full rounded-t-xl overflow-hidden p-2'>
+          <DarkMode />
+        </div>
       </div>
       <div className='pt-14 p-7 relative'>
         <img src={photoUrl} alt='Gerard Ch.' className='border-2 border-gray-100 dark:border-gray-700 rounded-xl w-20 h-20 absolute -top-10 shadow' />

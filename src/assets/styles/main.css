@@ -4,7 +4,7 @@
 
 /* card */
 .card {
-  @apply shadow rounded-xl bg-slate-50 overflow-hidden dark:bg-slate-800 dark:text-gray-200;
+  @apply drop-shadow-xl rounded-xl bg-slate-50 overflow-hidden dark:bg-slate-800 dark:text-gray-200;
 }
 .card-title {
   @apply font-semibold text-lg mb-5;
