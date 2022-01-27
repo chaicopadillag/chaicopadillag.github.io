@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /assets/*.jpg$
+
+Sitemap: https://chaicopadillag.github.io/sitemap.xml

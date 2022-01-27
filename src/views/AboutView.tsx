@@ -11,9 +11,9 @@ export const AboutView: FC<AboutProp> = ({ activeTab, setActiveTab }) => {
     <div className='p-7 pb-0 card'>
       <h2 className='card-title'>Sobre mí</h2>
       <p className='text-gray-600 dark:text-gray-300 mb-4'>
-        Soy Programador y Desarrollador Web autodidacta, proactivo y eficaz de Lima, Perú. Me apasiona mucho trabajar con nuevas tecnologías, disfruto creando aplicaciones de alto
-        rendimiento tanto en Backend como en Frontend. Contribuyo a proyectos de Open-source y comunidades de programación ayudando a otros usuarios. En el futuro me gustaría poder
-        crear mi propio negocio. <br />
+        Soy Desarrollador Web autodidacta, proactivo y eficaz de Lima, Perú. Me apasiona mucho trabajar con nuevas tecnologías, disfruto creando aplicaciones de alto rendimiento
+        tanto en Backend como en Frontend. Contribuyo a proyectos de Open-source y comunidades de programación ayudando a otros usuarios.
+        <br />
         Actualmente me dedico al desarrollo de aplicaciones web que ayuden a solucionar los diversos problemas que aquejan al mundo de hoy. <br /> ¿Interesado por mis conocimientos
         y habilidades? ¡Quizás podamos trabajar juntos!
       </p>
