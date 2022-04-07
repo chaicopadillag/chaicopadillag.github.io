@@ -26,7 +26,7 @@ export const experienceDB: ExperienceType[] = [
   {
     id: 'fd4b3413-409e-4863-93e8-f82e687d72d4',
     position: 'Programador',
-    company: 'SportBetPerú',
+    company: 'Halema SAC',
     location: 'Callao',
     startDate: 'Febrero, 2017',
     endDate: 'Marzo, 2019',
