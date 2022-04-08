@@ -9,7 +9,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      primary: colors.blue,
+      primary: colors.violet,
       slate: colors.slate,
       white: colors.white,
       gray: colors.gray,
