@@ -19,21 +19,22 @@ import {
   IconAngular,
   IconCsharp,
   IconPython,
+  IconFlutter,
 } from '../assets/svg';
 import { SkillType } from '../types/SkillsType';
 
 export const skillDB: SkillType[] = [
   {
     id: '75d7cda0-54c7-459d-beb6-859a32a991a4',
-    name: 'Node',
+    name: 'Node.js',
     level: 'Avanzado',
     Icon: IconNodeJs,
   },
   {
-    id: 'c9d8f8e0-c8e0-4f7e-b8e0-f8e0f8e0f8e0',
-    name: 'React',
+    id: 'f8e0f8e0-f8e0-f8e0-f8e0f8e0f8e0',
+    name: 'Nest.js',
     level: 'Avanzado',
-    Icon: IconReactJs,
+    Icon: IconNestJS,
   },
   {
     id: '93c4ac57-4230-46da-8454-27460c262055',
@@ -42,21 +43,21 @@ export const skillDB: SkillType[] = [
     Icon: IconTypescript,
   },
   {
+    id: 'c9d8f8e0-c8e0-4f7e-b8e0-f8e0f8e0f8e0',
+    name: 'React.js',
+    level: 'Avanzado',
+    Icon: IconReactJs,
+  },
+  {
     id: '446881d3-68f3-4d1b-9761-66c0fa92a4f4',
-    name: 'NextJS',
+    name: 'Next.js',
     level: 'Avanzado',
     Icon: IconNextJS,
   },
   {
-    id: 'f8e0f8e0-f8e0-f8e0-f8e0f8e0f8e0',
-    name: 'NestJS',
-    level: 'Básico',
-    Icon: IconNestJS,
-  },
-  {
     id: 'b7009d7a-2573-4c41-a008-2ad6dad96a8f',
     name: 'MongoDB',
-    level: 'Intermedio',
+    level: 'Avanzado',
     Icon: IconMongoDB,
   },
   {
@@ -70,6 +71,12 @@ export const skillDB: SkillType[] = [
     name: 'Angular',
     level: 'Básico',
     Icon: IconAngular,
+  },
+  {
+    id: 'fb746ab0-9d94-4c44-aa3d-9cc56621093d',
+    name: 'Flutter',
+    level: 'Intermedio',
+    Icon: IconFlutter,
   },
   {
     id: 'f674de34-280d-4b61-898f-baf0f38689d0',
