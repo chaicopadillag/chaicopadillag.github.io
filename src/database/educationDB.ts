@@ -10,7 +10,7 @@ export const educationDB: EducationType[] = [
   },
   {
     id: '2c3e917d-db68-46ea-bf43-eced2d387995',
-    specialty: 'Master en PHP 7+ Laravel',
+    specialty: 'Master en PHP Laravel',
     institution: 'Udemy',
     location: 'Colombia',
     startDate: '2020',

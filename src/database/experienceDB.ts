@@ -3,13 +3,13 @@ import { ExperienceType } from '../types/ExperienceType';
 export const experienceDB: ExperienceType[] = [
   {
     id: '75d7cda0-54c7-459d-beb6-859a32a991a4',
-    position: 'Full Stack Developer',
+    position: 'Full-stack Developer',
     company: 'SportBetPerú',
     location: 'Lince',
-    startDate: 'Noviebre, 2020',
-    endDate: 'Presente',
+    startDate: 'Julio, 2020',
+    endDate: 'Julio, 2022',
     description:
-      'Desarrollo del sistema de gestión de clientes, socios y locales de apuesta con framework Laravel 8.x. en el Backend y React.js con el framework Next.js en el Frontend. Desarrollo de API RESTful del juego de azar de Bingo XD con Node.js con el framework de Express.js y con la base de datos de MongoDB.',
+      'Desarrollo del sistema de gestión de clientes, socios y locales de apuesta con framework Laravel en el Backend y React.js con el framework Next.js en el Frontend. Desarrollo de API RESTful del juego de azar de Bingo XD con Node.js con el framework de NestJS y Express.js y con la base de datos de MongoDB & MySQL.',
     workingDay: 'Full-time',
   },
   {

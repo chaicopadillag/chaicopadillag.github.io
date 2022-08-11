@@ -5,7 +5,7 @@ import imgCover from '../assets/img/cover.jpg';
 export const profileDB: ProfileType = {
   name: 'Gerardo',
   lastName: 'Chaico Padilla',
-  level: 'Full-Stack Developer',
+  level: 'Full-stack Developer',
   status: 'Disponible',
   photoUrl: imgAvatar,
   bgUrl: imgCover,
