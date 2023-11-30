@@ -2,6 +2,17 @@ import { ExperienceType } from '../types/ExperienceType';
 
 export const experienceDB: ExperienceType[] = [
   {
+    id: '5615f938-8787-4211-9d2d-d188fb6b0a7c',
+    position: 'Backend Developer',
+    company: 'Tismart',
+    location: 'Lima',
+    startDate: 'Septiembre, 2022',
+    endDate: 'Present',
+    description:
+      'Como Back-end Developer en el proyecto NEL - Niubiz en Línea, soy responsable del diseño y desarrollo de servicios y APIs utilizando tecnologías avanzadas como Java Spring Boot, Node.js, NestJS y MongoDB. Mi enfoque se centra en la creación de soluciones eficientes y escalables que contribuyan al éxito del proyecto. Realizo pruebas unitarias e integración para garantizar la calidad del software. Trabajo de cerca con el equipo de front-end, facilitando una colaboración efectiva entre ambas partes para lograr una integración perfecta y una experiencia de usuario fluida',
+    workingDay: 'Full-time',
+  },
+  {
     id: '75d7cda0-54c7-459d-beb6-859a32a991a4',
     position: 'Full-stack Developer',
     company: 'SportBetPerú',
@@ -10,17 +21,6 @@ export const experienceDB: ExperienceType[] = [
     endDate: 'Julio, 2022',
     description:
       'Desarrollo del sistema de gestión de clientes, socios y locales de apuesta con framework Laravel en el Backend y React.js con el framework Next.js en el Frontend. Desarrollo de API RESTful del juego de azar de Bingo XD con Node.js con el framework de NestJS y Express.js y con la base de datos de MongoDB & MySQL.',
-    workingDay: 'Full-time',
-  },
-  {
-    id: 'cfa4bf10-940b-4472-a34f-41136860772f',
-    position: 'Freelance',
-    company: 'Desarrollador Freelance',
-    location: 'San Juan de Lurigancho',
-    startDate: 'Abril, 2019',
-    endDate: 'Octubre, 2020',
-    description:
-      'Desarrollo de sitios webs de Media News con WordPress, posicionamiento web - SEO, Social Media Manager, aplicaciones webs adaptables a todo tipo de dispositivos desde móvil, tablet, laptop y escritorio, bien interactivas, intuitivas, amigables y fácil de uso para el usuario.',
     workingDay: 'Full-time',
   },
   {
