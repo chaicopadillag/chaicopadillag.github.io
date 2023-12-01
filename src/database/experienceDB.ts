@@ -9,7 +9,7 @@ export const experienceDB: ExperienceType[] = [
     startDate: 'Septiembre, 2022',
     endDate: 'Present',
     description:
-      'Como Back-end Developer en el proyecto NEL - Niubiz en Línea, soy responsable del diseño y desarrollo de servicios y APIs utilizando tecnologías avanzadas como Java Spring Boot, Node.js, NestJS y MongoDB. Mi enfoque se centra en la creación de soluciones eficientes y escalables que contribuyan al éxito del proyecto. Realizo pruebas unitarias e integración para garantizar la calidad del software. Trabajo de cerca con el equipo de front-end, facilitando una colaboración efectiva entre ambas partes para lograr una integración perfecta y una experiencia de usuario fluida',
+      'Como Back-end Developer en el proyecto NEL - Niubiz en Línea, soy responsable del diseño y desarrollo de servicios y APIs utilizando tecnologías avanzadas como Java Spring Boot, Node.js, NestJS y MongoDB. Mi enfoque se centra en la creación de soluciones eficientes y escalables que contribuyan al éxito del proyecto. Realizo pruebas unitarias e integración para garantizar la calidad del software. Trabajo de cerca con el equipo de front-end, facilitando una colaboración efectiva entre ambas partes para lograr una integración perfecta y una experiencia de usuario fluida.',
     workingDay: 'Full-time',
   },
   {

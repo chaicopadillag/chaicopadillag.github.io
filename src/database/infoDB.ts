@@ -1,11 +1,11 @@
+import { IconAddres, IconEmail, IconPhone, IconWebSite, IconWork } from '../assets/svg';
 import { InfoType } from '../types/InfoType';
-import { IconAddres, IconPhone, IconEmail, IconWebSite, IconWork } from '../assets/svg';
 
 export const infoDB: InfoType[] = [
   {
     id: '75d7cda0-54c7-459d-beb6-859a32a991a4',
     name: 'Dirección',
-    description: 'SJL, Lima, Perú',
+    description: 'Huánuco, Perú',
     Icon: IconAddres,
   },
   {
