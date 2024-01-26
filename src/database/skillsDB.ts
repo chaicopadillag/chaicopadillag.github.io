@@ -73,7 +73,7 @@ export const skillDB: SkillType[] = [
     Icon: IconJavascript,
   },
   {
-    id: 'fb746ab0-9d94-4c44-aa3d-9cc56621093d',
+    id: '0f0fb147-5176-4b3e-a6f5-14857f7e62d9',
     name: 'Angular',
     level: 'Básico',
     Icon: IconAngular,

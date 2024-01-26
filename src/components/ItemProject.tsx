@@ -17,14 +17,36 @@ export const ItemProject: FC<ProjectProp> = ({ project }) => {
             <div className='font-medium'>{name}</div>
             <div className='flex flex-wrap gap-2'>
               <div className='flex items-center font-medium text-sm text-gray-400'>
-                <svg xmlns='http://www.w3.org/2000/svg' className='h-4 w-4 text-primary-400 dark:text-gray-300' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z' />
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  className='h-4 w-4 text-primary-400 dark:text-gray-300'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  stroke='currentColor'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth={2}
+                    d='M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z'
+                  />
                 </svg>
                 <span className='ml-1'>{company}</span>
               </div>
               <div className='flex items-center font-medium text-sm text-gray-400'>
-                <svg xmlns='http://www.w3.org/2000/svg' className='h-4 w-4 text-primary-400 dark:text-gray-300' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z' />
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  className='h-4 w-4 text-primary-400 dark:text-gray-300'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  stroke='currentColor'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth={2}
+                    d='M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z'
+                  />
                 </svg>
                 <span className='ml-1'>{rol}</span>
               </div>
@@ -38,7 +60,13 @@ export const ItemProject: FC<ProjectProp> = ({ project }) => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <svg xmlns='http://www.w3.org/2000/svg' className='h-4 w-4' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            className='h-4 w-4'
+            fill='none'
+            viewBox='0 0 24 24'
+            stroke='currentColor'
+          >
             <path
               strokeLinecap='round'
               strokeLinejoin='round'
@@ -46,7 +74,7 @@ export const ItemProject: FC<ProjectProp> = ({ project }) => {
               d='M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1'
             />
           </svg>
-          <span>{link.slice(0, 20)}</span>
+          <span>{link}</span>
         </a>
         <div className='border-b border-gray-200 dark:border-gray-700' />
       </div>

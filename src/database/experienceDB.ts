@@ -2,7 +2,7 @@ import { ExperienceType } from '../types/ExperienceType';
 
 export const experienceDB: ExperienceType[] = [
   {
-    id: '5615f938-8787-4211-9d2d-d188fb6b0a7c',
+    id: 'd46181a2-369b-4842-9d30-917bb88c833b',
     position: 'Backend Developer',
     company: 'Tismart',
     location: 'Lima',
@@ -11,6 +11,17 @@ export const experienceDB: ExperienceType[] = [
     description:
       'Como Back-end Developer en el proyecto NEL - Niubiz en Línea, soy responsable del diseño y desarrollo de servicios y APIs utilizando tecnologías avanzadas como Java Spring Boot, Node.js, NestJS y MongoDB. Mi enfoque se centra en la creación de soluciones eficientes y escalables que contribuyan al éxito del proyecto. Realizo pruebas unitarias e integración para garantizar la calidad del software. Trabajo de cerca con el equipo de front-end, facilitando una colaboración efectiva entre ambas partes para lograr una integración perfecta y una experiencia de usuario fluida.',
     workingDay: 'Full-time',
+  },
+  {
+    id: '5615f938-8787-4211-9d2d-d188fb6b0a7c',
+    position: 'Full-stack Developer',
+    company: 'Biolink',
+    location: 'USA',
+    startDate: 'Agosto, 2022',
+    endDate: 'Present',
+    description:
+      'Lidero como desarrollador Full-stack, utilizando el Framework de PHP Laravel para crear servicios API RESTful con base de datos MySQL usando ORM Eloquent, y Node.js/NestJS para un microservicio de tracking con MongoDB. En el frontend, empleé React.js con Next.js, aprovechando las capacidades de SSR(Server- Side Rendering) para potenciar el SEO y mejorar la velocidad de carga. Implementé Redux Toolkit y Context API para manejar el estado del App, uso Hooks para crear componentes, Cookies e Internacionalización para 6 idiomas.',
+    workingDay: 'Part-time',
   },
   {
     id: '75d7cda0-54c7-459d-beb6-859a32a991a4',

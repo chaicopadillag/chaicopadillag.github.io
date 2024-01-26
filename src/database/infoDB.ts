@@ -29,7 +29,7 @@ export const infoDB: InfoType[] = [
   {
     id: '60c55cf6-8f3f-4e50-8ee4-de5a58e8708f',
     name: 'Experiencia',
-    description: '+4 años',
+    description: '+ 6 años',
     Icon: IconWork,
   },
 ];
