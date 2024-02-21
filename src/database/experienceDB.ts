@@ -7,9 +7,16 @@ export const experienceDB: ExperienceType[] = [
     company: 'Tismart',
     location: 'Lima',
     startDate: 'Septiembre, 2022',
-    endDate: 'Present',
-    description:
-      'Como Back-end Developer en el proyecto NEL - Niubiz en Línea, soy responsable del diseño y desarrollo de servicios y APIs utilizando tecnologías avanzadas como Java Spring Boot, Node.js, NestJS y MongoDB. Mi enfoque se centra en la creación de soluciones eficientes y escalables que contribuyan al éxito del proyecto. Realizo pruebas unitarias e integración para garantizar la calidad del software. Trabajo de cerca con el equipo de front-end, facilitando una colaboración efectiva entre ambas partes para lograr una integración perfecta y una experiencia de usuario fluida.',
+    endDate: 'Presente',
+    achievements: [
+      'Encargado del diseño y desarrollo de servicios y APIs en el proyecto NEL - Niubiz en Línea, utilizando tecnologías avanzadas como Java Spring Boot, Node.js, NestJS y MongoDB.',
+      'Utilizo tecnologías en la nube, como AWS S3 para almacenamiento, SQS para colas de mensajes, y EKS para la administración de contenedores con Kubernetes.',
+      'Utilizo CodePipeline parA Integración Continua (CI) y Despliegue Continuo (CD) para agilizar el proceso de desarrollo y entrega',
+      'Implementé RabbitMQ y Redis para mejorar la gestión de mensajes y la eficiencia del sistema.',
+      'Estrategias de seguridad con JWT, Passport y Spring Security',
+      'Aplicación de programación reactiva con RXJS y RxJava para mejorar la capacidad de respuesta',
+      'Implementación de pruebas unitarias con Jest, Mockito, y monitoreo con NewRelic e integración para asegurar la calidad del software.',
+    ],
     workingDay: 'Full-time',
   },
   {
@@ -18,9 +25,15 @@ export const experienceDB: ExperienceType[] = [
     company: 'Biolink',
     location: 'USA',
     startDate: 'Agosto, 2022',
-    endDate: 'Present',
-    description:
-      'Lidero como desarrollador Full-stack, utilizando el Framework de PHP Laravel para crear servicios API RESTful con base de datos MySQL usando ORM Eloquent, y Node.js/NestJS para un microservicio de tracking con MongoDB. En el frontend, empleé React.js con Next.js, aprovechando las capacidades de SSR(Server- Side Rendering) para potenciar el SEO y mejorar la velocidad de carga. Implementé Redux Toolkit y Context API para manejar el estado del App, uso Hooks para crear componentes, Cookies e Internacionalización para 6 idiomas.',
+    endDate: 'Presente',
+    achievements: [
+      'Lidero el equipo de desarrollo como desarrollador Full-stack, utilizando el framework PHP Laravel para crear servicios API RESTful con base de datos MySQL, empleando el ORM Eloquent para garantizar una gestión eficiente de la base de datos.',
+      'Implementé un microservicio de tracking con Node.js y NestJS, respaldado por una base de datos MongoDB, optimizando la escalabilidad y rendimiento del sistema.',
+      'En el Frontend, utilicé React.js con Next.js, aprovechando el SSR (Server-Side Rendering) para mejorar el SEO y la velocidad de carga de la aplicación.',
+      'Implementé Redux Toolkit y Context API para gestionar de manera eficiente el estado de la aplicación, haciendo uso de Hooks para la creación de componentes dinámicos.',
+      'Integré la autenticación OAuth2 y JWT para garantizar la seguridad de las transacciones y el acceso autorizado a los recursos del sistema.',
+      'Incorporé Cookies e Internacionalización (Intl) para admitir 6 idiomas, mejorando la accesibilidad y la experiencia del usuario.',
+    ],
     workingDay: 'Part-time',
   },
   {
@@ -30,8 +43,16 @@ export const experienceDB: ExperienceType[] = [
     location: 'Lince',
     startDate: 'Julio, 2020',
     endDate: 'Julio, 2022',
-    description:
-      'Desarrollo del sistema de gestión de clientes, socios y locales de apuesta con framework Laravel en el Backend y React.js con el framework Next.js en el Frontend. Desarrollo de API RESTful del juego de azar de Bingo XD con Node.js con el framework de NestJS y Express.js y con la base de datos de MongoDB & MySQL.',
+    achievements: [
+      'Lideré el desarrollo integral de sistemas de gestión para clientes, socios y locales de apuesta.',
+      'Desarrollé API RESTful en el Backend utilizando Laravel (PHP) y Node.js con NestJS y Express.js, asegurando un diseño modular y escalable.',
+      'Integré bases de datos MongoDB y MySQL para respaldar la funcionalidad del sistema.',
+      'Implementé Socket.io para habilitar la comunicación en tiempo real en aplicaciones específicas.',
+      'Utilicé JWT (JSON Web Tokens) y Passport para la autenticación segura de usuarios en el sistema.',
+      'Implementé Redis para la gestión eficiente de caché y almacenamiento en memoria.',
+      'Implementé React.js con Next.js para la creación de interfaces de usuario interactivas y modernas en el Frontend.',
+      'Colaboré en el diseño e implementación de estilos utilizando Tailwind CSS para una interfaz atractiva y responsiva.',
+    ],
     workingDay: 'Full-time',
   },
   {
@@ -41,8 +62,12 @@ export const experienceDB: ExperienceType[] = [
     location: 'Callao',
     startDate: 'Febrero, 2017',
     endDate: 'Marzo, 2019',
-    description:
-      'Programador en el desarrollo de sistema ventas de la empresa con Power Builder como mantenimiento de tablas maestras, reportes y soporte remoto al usuario; Gestión de Base de Datos en PostgreSql mediante PgAdmin (Consultas, Funciones, Reportes, Actualización de datos, etc.)',
+    achievements: [
+      'Desarrollé y mantuve el sistema de ventas de la empresa utilizando PowerBuilder, destacando en el mantenimiento de tablas maestras y generación de reportes.',
+      'Brindé soporte remoto al usuario, garantizando una experiencia fluida y resolviendo eficientemente cualquier problema técnico relacionado con el sistema.',
+      'Gestioné la Base de Datos en PostgreSql mediante PgAdmin, realizando consultas, funciones, reportes y actualización de datos para asegurar la integridad y eficiencia del sistema.',
+      'Contribuí activamente a la mejora continua del sistema, proponiendo y desarrollando soluciones para optimizar la funcionalidad y el rendimiento.',
+    ],
     workingDay: 'Full-time',
   },
 ];

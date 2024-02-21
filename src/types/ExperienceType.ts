@@ -5,6 +5,6 @@ export type ExperienceType = {
   location: string;
   startDate: string;
   endDate: string;
-  description: string;
+  achievements: string[];
   workingDay: string;
 };

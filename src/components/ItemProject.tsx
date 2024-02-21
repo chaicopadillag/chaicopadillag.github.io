@@ -8,7 +8,7 @@ export const ItemProject: FC<ProjectProp> = ({ project }) => {
   const { id, company, description, link, name, rol } = project;
   return (
     <div className='mb-5 flex items-start gap-4'>
-      <div className='rounded-xl flex items-center justify-center flex-shrink-0 w-12 h-12 text-primary-500 border-2 border-primary-500 dark:text-gray-200 dark:border-gray-500'>
+      <div className='rounded-xl flex items-center justify-center flex-shrink-0 w-12 h-12 text-primary-900 border-2 border-primary-900 dark:text-gray-100 dark:border-gray-500'>
         <span className='text-2xl'>{name.slice(0, 1)}</span>
       </div>
       <div className='w-full space-y-5'>
@@ -16,10 +16,10 @@ export const ItemProject: FC<ProjectProp> = ({ project }) => {
           <div className='space-y-1.5'>
             <div className='font-medium'>{name}</div>
             <div className='flex flex-wrap gap-2'>
-              <div className='flex items-center font-medium text-sm text-gray-400'>
+              <div className='flex items-center font-medium text-sm text-gray-700 dark:text-gray-100'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
-                  className='h-4 w-4 text-primary-400 dark:text-gray-300'
+                  className='h-4 w-4 text-primary-500 dark:text-gray-300'
                   fill='none'
                   viewBox='0 0 24 24'
                   stroke='currentColor'
@@ -33,10 +33,10 @@ export const ItemProject: FC<ProjectProp> = ({ project }) => {
                 </svg>
                 <span className='ml-1'>{company}</span>
               </div>
-              <div className='flex items-center font-medium text-sm text-gray-400'>
+              <div className='flex items-center font-medium text-sm text-gray-700 dark:text-gray-100'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
-                  className='h-4 w-4 text-primary-400 dark:text-gray-300'
+                  className='h-4 w-4 text-primary-700 dark:text-gray-200'
                   fill='none'
                   viewBox='0 0 24 24'
                   stroke='currentColor'
@@ -55,7 +55,7 @@ export const ItemProject: FC<ProjectProp> = ({ project }) => {
         </div>
         <p className='text-gray-600 dark:text-gray-300'>{description}</p>
         <a
-          className='inline-flex items-center space-x-3 px-3.5 py-1.5 rounded-lg group border border-primary-500 text-primary-500 text-sm font-medium transition duration-200 hover:border-primary-500 hover:text-white hover:bg-primary-600 dark:text-gray-300 dark:bg-slate-700 dark:border-gray-600 dark:hover:bg-slate-900'
+          className='inline-flex items-center space-x-3 px-3.5 py-1.5 rounded-lg group border border-primary-700 text-primary-700 text-sm font-medium transition duration-200 hover:border-primary-500 hover:text-white hover:bg-primary-700 dark:text-gray-100 dark:bg-slate-700 dark:border-gray-600 dark:hover:bg-slate-900'
           href={link}
           target='_blank'
           rel='noopener noreferrer'

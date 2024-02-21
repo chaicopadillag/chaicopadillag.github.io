@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './assets/styles/main.css';
-import { ExperienceView, ProfileView, EducationView, ProjectView, SkillsView, InfoView, AboutView, ResumeView } from './views';
+import { AboutView, ContactView, ProfileView, ProjectView, ResumeView, SkillsView } from './views';
 
 export enum TabsEnum {
   resume = 'resume',
@@ -18,7 +18,7 @@ const AppResume = () => {
         <div className=''>
           <ProfileView />
           <SkillsView />
-          <InfoView />
+          <ContactView />
         </div>
 
         {/* FIXME: Right */}
