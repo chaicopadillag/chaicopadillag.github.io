@@ -11,7 +11,7 @@ export const experienceDB: ExperienceType[] = [
     achievements: [
       'Encargado del diseño y desarrollo de servicios y APIs en el proyecto NEL - Niubiz en Línea, utilizando tecnologías avanzadas como Java Spring Boot, Node.js, NestJS y MongoDB.',
       'Utilizo tecnologías en la nube, como AWS S3 para almacenamiento, SQS para colas de mensajes, y EKS para la administración de contenedores con Kubernetes.',
-      'Utilizo CodePipeline parA Integración Continua (CI) y Despliegue Continuo (CD) para agilizar el proceso de desarrollo y entrega continua.',
+      'Utilizo CodePipeline para Integración Continua (CI) y Despliegue Continuo (CD) para agilizar el proceso de desarrollo y entrega continua.',
       'Implementé RabbitMQ y Redis para mejorar la gestión de mensajes y la eficiencia del sistema.',
       'Estrategias de seguridad con JWT, Passport y Spring Security.',
       'Aplicación de programación reactiva con RXJS y RxJava para mejorar la capacidad de respuesta.',
