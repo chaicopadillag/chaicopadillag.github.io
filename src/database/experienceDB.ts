@@ -2,24 +2,6 @@ import { ExperienceType } from '../types/ExperienceType';
 
 export const experienceDB: ExperienceType[] = [
   {
-    id: 'd46181a2-369b-4842-9d30-917bb88c833b',
-    position: 'Backend Developer',
-    company: 'Tismart',
-    location: 'Lima',
-    startDate: 'Septiembre, 2022',
-    endDate: 'Presente',
-    achievements: [
-      'Encargado del diseño y desarrollo de servicios y APIs en el proyecto NEL - Niubiz en Línea, utilizando tecnologías avanzadas como Java Spring Boot, Node.js, NestJS y MongoDB.',
-      'Utilizo tecnologías en la nube, como AWS S3 para almacenamiento, SQS para colas de mensajes, y EKS para la administración de contenedores con Kubernetes.',
-      'Utilizo CodePipeline para Integración Continua (CI) y Despliegue Continuo (CD) para agilizar el proceso de desarrollo y entrega continua.',
-      'Implementé RabbitMQ y Redis para mejorar la gestión de mensajes y la eficiencia del sistema.',
-      'Estrategias de seguridad con JWT, Passport y Spring Security.',
-      'Aplicación de programación reactiva con RXJS y RxJava para mejorar la capacidad de respuesta.',
-      'Implementación de pruebas unitarias con Jest, Mockito, y monitoreo con NewRelic e integración para asegurar la calidad del software.',
-    ],
-    workingDay: 'Full-time',
-  },
-  {
     id: '5615f938-8787-4211-9d2d-d188fb6b0a7c',
     position: 'Full-stack Developer',
     company: 'Biolink',
@@ -35,6 +17,24 @@ export const experienceDB: ExperienceType[] = [
       'Incorporé Cookies e Internacionalización (Intl) para admitir 6 idiomas, mejorando la accesibilidad y la experiencia del usuario.',
     ],
     workingDay: 'Part-time',
+  },
+  {
+    id: 'd46181a2-369b-4842-9d30-917bb88c833b',
+    position: 'Backend Developer',
+    company: 'Tismart',
+    location: 'Lima',
+    startDate: 'Septiembre, 2022',
+    endDate: 'Febrero, 2024',
+    achievements: [
+      'Fui encargado del diseño y desarrollo de servicios y APIs en el proyecto NEL - Niubiz en Línea, utilizando tecnologías avanzadas como Java Spring Boot, Node.js, NestJS y MongoDB.',
+      'Utilicé tecnologías en la nube, como AWS S3 para almacenamiento, SQS para colas de mensajes, y EKS para la administración de contenedores con Kubernetes.',
+      'Utilicé CodePipeline para Integración Continua (CI) y Despliegue Continuo (CD) para agilizar el proceso de desarrollo y entrega continua.',
+      'Implementé RabbitMQ y Redis para mejorar la gestión de mensajes y la eficiencia del sistema.',
+      'Estrategias de seguridad con JWT, Passport y Spring Security.',
+      'Aplicación de programación reactiva con RXJS y RxJava para mejorar la capacidad de respuesta.',
+      'Implementación de pruebas unitarias con Jest, Mockito, y monitoreo con NewRelic e integración para asegurar la calidad del software.',
+    ],
+    workingDay: 'Full-time',
   },
   {
     id: '75d7cda0-54c7-459d-beb6-859a32a991a4',

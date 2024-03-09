@@ -36,7 +36,7 @@ export const projectDB: ProjectType[] = [
     link: 'https://teslo-shop-demo.vercel.app',
   },
   {
-    id: '2c3e917d-db68-46ea-bf43-eced2d387996',
+    id: '3f0b9bd8-0725-444d-a40a-f4ca8f156e44',
     name: 'App de Chat - Tiempo Real',
     company: 'Personal',
     rol: 'Full-stack Developer',

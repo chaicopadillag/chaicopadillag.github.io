@@ -18,7 +18,7 @@ export const educationDB: EducationType[] = [
   },
 
   {
-    id: '2c3e917d-db68-46ea-bf43-eced2d387996',
+    id: '38265ca2-9494-43f2-8f9e-54398bf849d0',
     specialty: 'Ingeniería de Sistemas e Informática',
     institution: 'TELESUP',
     location: 'Perú',
