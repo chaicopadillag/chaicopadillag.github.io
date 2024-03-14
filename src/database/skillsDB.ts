@@ -135,7 +135,7 @@ export const skillsFrameworks: SkillType[] = [
   {
     id: '055d39fc-3972-4638-b307-eb376e5cd371',
     name: 'Angular',
-    level: 'Básico',
+    level: 'Intermedio',
     Icon: IconAngular,
   },
   {
