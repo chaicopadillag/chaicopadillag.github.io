@@ -35,7 +35,7 @@ export const ProfileView = () => {
             Contactar
           </a>
           <a
-            href='./cv-ats.pdf'
+            href='./cv-chaico-2024.pdf'
             target='_blanck'
             className='text-gray-700 bg-slate-200 hover:bg-slate-300  p-3 rounded-r-lg dark:bg-slate-600 dark:hover:bg-slate-900 cursor-pointer dark:text-gray-200'
             title='Descargar CV'

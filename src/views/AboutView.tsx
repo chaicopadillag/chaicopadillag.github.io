@@ -16,7 +16,7 @@ export const AboutView: FC<AboutProp> = ({ activeTab, setActiveTab }) => {
         especializo en React.js, Next.js y Flutter, brindando experiencias web y móviles
         excepcionales. Mi destreza abarca el manejo experto de bases de datos como MongoDB y MySQL.
         Además, cuento con conocimientos en integraciones con inteligencia artificial, destacando mi
-        experiencia en la implementación de soluciones basadas en{' '}
+        experiencia en la implementación de soluciones basadas en
         <span className='font-semibold'>OpenAI</span>.
       </p>
       <div className='flex flex-row flex-wrap justify-between items-end space-y-2'>
