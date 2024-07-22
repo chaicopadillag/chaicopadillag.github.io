@@ -16,7 +16,7 @@ export const experienceDB: ExperienceType[] = [
       'Integré la autenticación OAuth2 y JWT para garantizar la seguridad de las transacciones y el acceso autorizado a los recursos del sistema.',
       'Incorporé Cookies e Internacionalización (Intl) para admitir 6 idiomas, mejorando la accesibilidad y la experiencia del usuario.',
     ],
-    workingDay: 'Part-time',
+    workingDay: 'Full-time',
   },
   {
     id: 'd46181a2-369b-4842-9d30-917bb88c833b',

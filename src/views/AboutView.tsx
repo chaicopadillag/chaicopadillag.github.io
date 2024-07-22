@@ -17,7 +17,7 @@ export const AboutView: FC<AboutProp> = ({ activeTab, setActiveTab }) => {
         excepcionales. Mi destreza abarca el manejo experto de bases de datos como MongoDB y MySQL.
         Además, cuento con conocimientos en integraciones con inteligencia artificial, destacando mi
         experiencia en la implementación de soluciones basadas en
-        <span className='font-semibold'>OpenAI</span>.
+        <span className='font-semibold ml-1'>OpenAI</span>.
       </p>
       <div className='flex flex-row flex-wrap justify-between items-end space-y-2'>
         <a

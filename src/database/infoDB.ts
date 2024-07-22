@@ -11,7 +11,7 @@ export const infoDB: InfoType[] = [
   {
     id: 'ffca446a-0f25-4940-baf9-204e7e09f9d2',
     name: 'Teléfono',
-    description: '+51 928 255 616',
+    description: '+51 965 302 388',
     Icon: IconPhone,
   },
   {
