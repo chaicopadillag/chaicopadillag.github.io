@@ -9,7 +9,7 @@ export const experienceDB: ExperienceType[] = [
     startDate: 'Octubre, 2024',
     endDate: 'Presente',
     achievements: [
-      'Diseño e implementación de soluciones backend serverless compuestas por AWS Lambda, API Gateway y DynamoDB, conformando microservicios desacoplados y escalables.',
+      'Diseño e implementación de soluciones backend serverless compuestas por AWS Lambda, API Gateway y DynamoDB, conformando microservicios desacoplados y escalables con Node.js, NestJS y Serverless Framework.',
       'Construcción de flujos orquestados mediante AWS Step Functions, integrando servicios como Lambda, SNS, DynamoDB y EventBridge para procesos tanto síncronos como asíncronos.',
       'Gestión de la seguridad en APIs mediante AWS Cognito (autenticación y autorización), API Keys y AWS Signature V4, cumpliendo con buenas prácticas de protección de endpoints.',
       'Desarrollo de pruebas automatizadas con Jest y Jest-Cucumber, aplicando metodologías de TDD y BDD para asegurar la calidad y mantenibilidad del código.',
@@ -38,7 +38,7 @@ export const experienceDB: ExperienceType[] = [
   {
     id: 'd46181a2-369b-4842-9d30-917bb88c833b',
     position: 'Backend Developer',
-    company: 'Tismart',
+    company: 'Tismart (Niubiz)',
     location: 'Lima',
     startDate: 'Septiembre, 2022',
     endDate: 'Febrero, 2024',
