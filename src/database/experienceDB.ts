@@ -19,23 +19,6 @@ export const experienceDB: ExperienceType[] = [
     workingDay: 'Full-time'
   },
   {
-    id: '5615f938-8787-4211-9d2d-d188fb6b0a7c',
-    position: 'Full-stack Developer',
-    company: 'Biolink',
-    location: 'USA',
-    startDate: 'Agosto, 2022',
-    endDate: 'Septiembre, 2024',
-    achievements: [
-      'Lidero el equipo de desarrollo como desarrollador Full-stack, utilizando el framework PHP Laravel para crear servicios API RESTful con base de datos MySQL, empleando el ORM Eloquent para garantizar una gestión eficiente de la base de datos.',
-      'Implementé un microservicio de tracking con Node.js y NestJS, respaldado por una base de datos MongoDB, optimizando la escalabilidad y rendimiento del sistema.',
-      'En el Frontend, utilicé React.js con Next.js, aprovechando el SSR (Server-Side Rendering) para mejorar el SEO y la velocidad de carga de la aplicación.',
-      'Implementé Redux Toolkit y Context API para gestionar de manera eficiente el estado de la aplicación, haciendo uso de Hooks para la creación de componentes dinámicos.',
-      'Integré la autenticación OAuth2 y JWT para garantizar la seguridad de las transacciones y el acceso autorizado a los recursos del sistema.',
-      'Incorporé Cookies e Internacionalización (Intl) para admitir 6 idiomas, mejorando la accesibilidad y la experiencia del usuario.'
-    ],
-    workingDay: 'Full-time'
-  },
-  {
     id: 'd46181a2-369b-4842-9d30-917bb88c833b',
     position: 'Backend Developer',
     company: 'Tismart (Niubiz)',
@@ -52,6 +35,23 @@ export const experienceDB: ExperienceType[] = [
       'Implementación de pruebas unitarias con Jest, Mockito, y monitoreo con NewRelic e integración para asegurar la calidad del software.'
     ],
     workingDay: 'Full-time'
+  },
+  {
+    id: '5615f938-8787-4211-9d2d-d188fb6b0a7c',
+    position: 'Full-stack Developer',
+    company: 'Biolink',
+    location: 'USA',
+    startDate: 'Agosto, 2022',
+    endDate: 'Septiembre, 2024',
+    achievements: [
+      'Lidero el equipo de desarrollo como desarrollador Full-stack, utilizando el framework PHP Laravel para crear servicios API RESTful con base de datos MySQL, empleando el ORM Eloquent para garantizar una gestión eficiente de la base de datos.',
+      'Implementé un microservicio de tracking con Node.js y NestJS, respaldado por una base de datos MongoDB, optimizando la escalabilidad y rendimiento del sistema.',
+      'En el Frontend, utilicé React.js con Next.js, aprovechando el SSR (Server-Side Rendering) para mejorar el SEO y la velocidad de carga de la aplicación.',
+      'Implementé Redux Toolkit y Context API para gestionar de manera eficiente el estado de la aplicación, haciendo uso de Hooks para la creación de componentes dinámicos.',
+      'Integré la autenticación OAuth2 y JWT para garantizar la seguridad de las transacciones y el acceso autorizado a los recursos del sistema.',
+      'Incorporé Cookies e Internacionalización (Intl) para admitir 6 idiomas, mejorando la accesibilidad y la experiencia del usuario.'
+    ],
+    workingDay: 'Part-time'
   },
   {
     id: '75d7cda0-54c7-459d-beb6-859a32a991a4',
