@@ -2,12 +2,29 @@ import { ExperienceType } from '../types/ExperienceType';
 
 export const experienceDB: ExperienceType[] = [
   {
+    id: 'e1f92c3d-7a4b-4e8f-b2d1-9c6a5f3e8b7d',
+    position: 'Backend Developer',
+    company: 'QDS (Kasnet)',
+    location: 'Lima',
+    startDate: 'Septiembre, 2025',
+    endDate: 'Presente',
+    achievements: [
+      'Diseño e implementación de APIs REST con Node.js y NestJS sobre AWS (API Gateway, Lambda, RDS PostgreSQL), aplicando arquitectura hexagonal (ports & adapters) y CQRS para separación clara de responsabilidades y mantenibilidad.',
+      'Desarrollo de módulos core: gestión de usuarios y roles (RBAC), ajustes de cuenta y cuentas de terminales, estructurados en commands/queries para escalabilidad y claridad operativa.',
+      'Implementación de autenticación y autorización con AWS Cognito y Lambda Authorizer como adaptadores externos, con control de acceso granular.',
+      'Construcción de procesos batch y queries optimizadas (streams) para procesamiento y generación de reportes sobre grandes volúmenes de datos, mejorando eficiencia en tiempo y memoria.',
+      'Gestión de infraestructura como código con Pulumi y despliegue en contenedores (Docker sobre ECS/ECR), alineado a una arquitectura desacoplada y escalable.',
+      'Adopción de Spec-Driven Development con herramientas de IA (Kiro) para definición clara de contratos (commands/queries) y aceleración del desarrollo.'
+    ],
+    workingDay: 'Full-time'
+  },
+  {
     id: 'a2820888-c7d8-4392-a8f5-75b515de6ebc',
     position: 'Backend Developer',
     company: 'Indra (Rimac)',
     location: 'Lima',
     startDate: 'Octubre, 2024',
-    endDate: 'Presente',
+    endDate: 'Agosto, 2025',
     achievements: [
       'Diseño e implementación de soluciones backend serverless compuestas por AWS Lambda, API Gateway y DynamoDB, conformando microservicios desacoplados y escalables con Node.js, NestJS y Serverless Framework.',
       'Construcción de flujos orquestados mediante AWS Step Functions, integrando servicios como Lambda, SNS, DynamoDB y EventBridge para procesos tanto síncronos como asíncronos.',
