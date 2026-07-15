@@ -24,23 +24,27 @@
                     <p class="text-sm">Full-stack Developer</p>
                 </div>
                 <div>
-                    <p class="text-sm">Teléfono: (+51) 965 302 388</p>
-                    <p class="text-sm">Correo: chaicopadillag@gmail.com</p>
-                    <p class="text-sm">Ubicación: Lima, Perú</p>
+                    <p class="text-sm">+51 965 302 388</p>
+                    <p class="text-sm">chaicopadillag@gmail.com</p>
+                    <p class="text-sm">Tingo María, Perú</p>
                 </div>
             </div>
             <hr class="my-2">
             <div>
                 <h3 class="text-lg font-semibold mb-2">A cerca de mi</h3>
                 <p class="text-sm leading-relaxed">
-                    Desarrollador full-stack con sólida experiencia en <span class="font-semibold">back-end</span>. (AWS, Java/Spring Boot, Node.js/NestJS, PHP/Laravel e integraciones con <span class="font-semibold">OpenAI</span>), <span class="font-semibold">front-end</span> (React.js, Vue.js, Angular en web y Flutter para móvil), bases de datos SQL y NoSQL. Enfoque integral desde la planificación hasta la implementación, apasionado por entregar soluciones innovadoras y productos de calidad.</p>
+                    Desarrollador full-stack con foco en backend (Node.js/NestJS, Java/Spring Boot, PHP/Laravel) y <span class="font-semibold">AWS</span>
+                    (arquitecturas serverless y en contenedores). En frontend, dominio avanzado de React y Next.js, con
+                    experiencia adicional en Vue y Angular. Trabajo con Spec-Driven Development apoyado en <span class="font-semibold">IA</span> para
+                    mantener contratos claros entre servicios y acelerar el desarrollo.
+                </p>
             </div>
             <div class="mt-4">
                 <h3 class="text-lg font-semibold mb-2">Mis Skills</h3>
                 <ul class="list-disc list-inside text-sm">
                     <li><span class="font-semibold">Lenguajes de Programación:</span> Node.js, Java, Javascript, Typescript y PHP.</li>
-                    <li><span class="font-semibold">Frameworks & Librerias:</span> Spring Boot, NestJS, Express.js, React.js, Next.js, Vue.js, Angular, Astro y Laravel.</li>
-                    <li><span class="font-semibold">Base de Datos:</span> MySQL, MongoDB, PostgreSQL, SqlServer, DynamoDB</li>
+                    <li><span class="font-semibold">Frameworks:</span> Spring Boot, NestJS, Express.js, React.js, Next.js, Vue.js, Angular, Astro y Laravel.</li>
+                    <li><span class="font-semibold">Base de Datos:</span> PostgreSQL, MySQL, DynamoDB, MongoDB y SqlServer</li>
                     <li><span class="font-semibold">Cloud:</span> AWS y GCP.</li>
                     <li><span class="font-semibold">Metodologías Ágiles:</span> Scrum.</li>
                     <li><span class="font-semibold">DevOps Tools:</span> Docker, Git, Github Actions.</li>
@@ -49,15 +53,26 @@
             <div class="mt-4">
                 <h3 class="text-lg font-semibold mb-2">Mi Experiencia</h3>
                 <div>
-                    <h4 class="text-md font-bold">QDS (Kasnet)</h4>
-                    <p class="text-sm font-semibold">Backend Developer - <span class="font-medium">Full-time</span> | Septiembre, 2025 - Presente</p>
+                    <h4 class="text-md font-bold">Metrica (Culqi)</h4>
+                    <p class="text-sm font-semibold">Backend Developer - <span class="font-medium">Full-time</span> | Mayo, 2026 - Presente</p>
                     <ul class="list-disc list-inside text-sm">
-                        <li>Diseño e implementación de APIs REST con Node.js y NestJS sobre AWS (API Gateway, Lambda, RDS PostgreSQL), aplicando arquitectura hexagonal y CQRS para separación clara de responsabilidades y mantenibilidad.</li>
-                        <li>Desarrollo de módulos core: gestión de usuarios y roles, ajustes de cuenta y cuentas de terminales, estructurados en commands/queries para escalabilidad y claridad operativa.</li>
-                        <li>Implementación de autenticación y autorización con AWS Cognito y Lambda Authorizer como adaptadores externos, con control de acceso granular.</li>
-                        <li>Construcción de procesos batch y queries optimizadas (streams) para procesamiento y generación de reportes sobre grandes volúmenes de datos, mejorando eficiencia en tiempo y memoria.</li>
-                        <li>Gestión de infraestructura como código con Pulumi y despliegue en contenedores (Docker sobre ECS/ECR), alineado a una arquitectura desacoplada y escalable.</li>
-                        <li>Adopción de Spec-Driven Development con herramientas de IA (Kiro) para definición clara de contratos (commands/queries) y aceleración del desarrollo.</li>
+                        <li>Diseño e implementación de APIs REST serverless con API Gateway y AWS Lambda.</li>
+                        <li>Desarrollo de la lógica de negocio con Node.js y TypeScript, consumiendo RDS PostgreSQL o DynamoDB según el módulo.</li>
+                        <li>Desarrollo de módulos de dominio: usuarios, roles y permisos, manteniendo límites claros entre contextos de negocio para facilitar el mantenimiento y la incorporación de nuevas reglas.</li>
+                        <li>Implementación de autenticación y autorización mediante AWS Cognito y un Lambda Authorizer.</li>
+                        <li>Orquestación de flujos asíncronos con Step Functions y Lambda, integrando eventos y mensajería mediante SNS, SQS y EventBridge.</li>
+                    </ul>
+                </div>
+                <div class="mt-4">
+                    <h4 class="text-md font-bold">QDS (Kasnet)</h4>
+                    <p class="text-sm font-semibold">Backend Developer - <span class="font-medium">Full-time</span> | Septiembre, 2025 - Abril, 2026</p>
+                    <ul class="list-disc list-inside text-sm">
+                        <li>Diseño e implementación de APIs REST con Node.js y NestJS, aplicando arquitectura hexagonal y CQRS para desacoplar reglas de negocio de la infraestructura.</li>
+                        <li>Despliegue de microservicios en AWS con Docker sobre ECS/Fargate, consumiendo RDS PostgreSQL o DynamoDB según el módulo, expuestos vía API Gateway y ALB.</li>
+                        <li>Desarrollo de módulos core del dominio: agentes, cuentas, ajustes de cuenta, terminales POS, usuarios, roles y permisos, con límites claros entre contextos de negocio.</li>
+                        <li>Autenticación y autorización mediante AWS Cognito y Lambda Authorizer, integrados como adaptadores externos dentro de la arquitectura hexagonal.</li>
+                        <li>Procesos batch en AWS Lambda y queries optimizadas con Node.js Streams para reportes sobre grandes volúmenes de datos, reduciendo tiempos y consumo de memoria.</li>
+                        <li>Infraestructura como código con Pulumi para provisionar y versionar recursos de AWS, asegurando despliegues reproducibles.</li>
                     </ul>
                 </div>
                 <div class="mt-4">
@@ -75,7 +90,7 @@
                 <div class="mt-4">
                     <h4 class="text-md font-bold">Tismart (Niubiz)</h4>
                     <p class="text-sm font-semibold">Backend Developer - <span class="font-medium">Full-time</span> | Septiembre, 2022 - Enero, 2024</p>
-                    <ul class="list-disc list-inside text-sm">
+                    <!-- <ul class="list-disc list-inside text-sm">
                         <li>Fui encargado del diseño y desarrollo de servicios y APIs en el proyecto NEL - Niubiz en Línea, utilizando tecnologías avanzadas como Java Spring Boot, Node.js, NestJS y MongoDB.</li>
                         <li>Utilicé tecnologías en la nube, como AWS S3 para almacenamiento, SQS para colas de mensajes, y EKS para la administración de contenedores con Kubernetes.</li>
                         <li>Utilicé CodePipeline para Integración Continua (CI) y Despliegue Continuo (CD) para agilizar el proceso de desarrollo y entrega continua.</li>
@@ -83,7 +98,7 @@
                         <li>Estrategias de seguridad con JWT, Passport y Spring Security.</li>
                         <li>Aplicación de programación reactiva con RXJS y RxJava para mejorar la capacidad de respuesta.</li>
                         <li>Implementación de pruebas unitarias con Jest, Mockito, y monitoreo con NewRelic e integración para asegurar la calidad del software.</li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <!-- <div class="mt-4">
                     <h4 class="text-md font-bold">Biolink</h4>
@@ -101,7 +116,7 @@
                 <div class="mt-4">
                     <h4 class="text-md font-bold">International Twenty Outsourcing</h4>
                     <p class="text-sm font-semibold">Full-stack Developer - <span class="font-medium">Full-time</span> | Abril, 2021 - Julio, 2022</p>
-                    <ul class="list-disc list-inside text-sm">
+                    <!-- <ul class="list-disc list-inside text-sm">
                         <li>Lideré el desarrollo integral de sistemas de gestión para clientes, socios y locales de apuesta.</li>
                         <li>Desarrollé API RESTful en el Backend utilizando Laravel (PHP) y Node.js con NestJS y Express.js, asegurando un diseño modular y escalable.</li>
                         <li>Integré bases de datos MongoDB y MySQL para respaldar la funcionalidad del sistema.</li>
@@ -110,7 +125,7 @@
                         <li>Implementé Redis para la gestión eficiente de caché y almacenamiento en memoria.</li>
                         <li>Implementé React.js con Next.js para la creación de interfaces de usuario interactivas y modernas en el Frontend.</li>
                         <li>Colaboré en el diseño e implementación de estilos utilizando Tailwind CSS para una interfaz atractiva y responsiva.</li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="mt-4">
                     <h4 class="text-md font-bold">SportBetPerú</h4>
