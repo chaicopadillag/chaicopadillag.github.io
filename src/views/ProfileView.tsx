@@ -1,4 +1,5 @@
 import { DarkMode } from '../components';
+import { myPhoneNumber } from '../database/infoDB';
 import { profileDB } from '../database/profileDB';
 
 export const ProfileView = () => {
@@ -19,7 +20,9 @@ export const ProfileView = () => {
         <div className='text-sm text-gray-700 dark:text-gray-200 mb-7'>{level}</div>
         <div className='flex overflow-hidden'>
           <a
-            href='https://api.whatsapp.com/send?phone=51928522616&text=Hola Dev, me contacto desde tu web personal.'
+            href={`https://api.whatsapp.com/send?phone=${myPhoneNumber
+              .replace(/\s/g, '')
+              .replace('+', '')}&text=Hola Dev, me contacto desde tu web personal.`}
             target='_blank'
             className='block w-full text-gray-200 bg-primary-800 hover:bg-primary-900 dark:bg-slate-700 dark:hover:bg-slate-900 text-base py-3 px-4 font-semibold rounded-l-lg text-center'
           >
